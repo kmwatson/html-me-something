@@ -1,0 +1,85 @@
+/*Style sheet for html*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+	background-color:#e6f7ff;
+	font-family: 'Raleway', sans-serif; 
+	margin-bottom:75px;
+}
+
+header {
+	margin-top:150px;
+}
+
+h1 {
+	background-color:#2E8B57;
+	padding:25px;
+	position:fixed;
+	width:100%;
+	left:0;
+	margin-top:-150px;
+	font-family: 'Libre Baskerville', serif;
+	color:white;
+	text-align:center;
+}
+
+h3 {
+	text-align:center;
+} 
+
+nav {
+	margin-top:25px;
+}
+
+nav li {
+	list-style-type:none;
+	text-align:center;
+}
+ 
+ul {
+	list-style-type:none;
+	text-align:center;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+h2 {
+	padding-top:125px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:35%;
+}
+
+#detailsphoto {
+	width:250px;
+}
+
+summary {
+	font-size:30px;
+	text-align:center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+footer {
+	position:fixed; 
+	left:0px;
+	bottom:0px;
+	width:100%;
+	background-color:#1a3300;
+	opacity:0.96;
+	text-align:right;
+	color:white;
+}
